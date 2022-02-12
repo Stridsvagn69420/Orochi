@@ -1,8 +1,11 @@
-build:
+release:
 	@cargo build --release
 
-debug:
+build:
 	@cargo build
 
 run:
 	@cargo run
+
+update:
+	@cargo update
